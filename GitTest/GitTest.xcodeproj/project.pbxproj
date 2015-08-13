@@ -14,6 +14,7 @@
 		934CA5E61B7C705700BC484B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934CA5E51B7C705700BC484B /* Images.xcassets */; };
 		934CA5E91B7C705700BC484B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 934CA5E71B7C705700BC484B /* LaunchScreen.xib */; };
 		934CA5F51B7C705700BC484B /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 934CA5F41B7C705700BC484B /* GitTestTests.m */; };
+		93BB8E121B7C8E3C00B27894 /* tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BB8E111B7C8E3C00B27894 /* tool.m */; };
 		93FB17A81B7C8B8700CE34A5 /* hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FB17A71B7C8B8700CE34A5 /* hello.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		934CA5EE1B7C705700BC484B /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		934CA5F31B7C705700BC484B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934CA5F41B7C705700BC484B /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		93BB8E101B7C8E3C00B27894 /* tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tool.h; sourceTree = "<group>"; };
+		93BB8E111B7C8E3C00B27894 /* tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tool.m; sourceTree = "<group>"; };
 		93FB17A61B7C8B8700CE34A5 /* hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hello.h; sourceTree = "<group>"; };
 		93FB17A71B7C8B8700CE34A5 /* hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +69,8 @@
 		934CA5CC1B7C705700BC484B = {
 			isa = PBXGroup;
 			children = (
+				93BB8E101B7C8E3C00B27894 /* tool.h */,
+				93BB8E111B7C8E3C00B27894 /* tool.m */,
 				934CA5D71B7C705700BC484B /* GitTest */,
 				934CA5F11B7C705700BC484B /* GitTestTests */,
 				934CA5D61B7C705700BC484B /* Products */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BB8E121B7C8E3C00B27894 /* tool.m in Sources */,
 				934CA5E11B7C705700BC484B /* ViewController.m in Sources */,
 				934CA5DE1B7C705700BC484B /* AppDelegate.m in Sources */,
 				93FB17A81B7C8B8700CE34A5 /* hello.m in Sources */,
