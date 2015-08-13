@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface tool : NSObject
-
+@property (nonatomic, copy)NSString *toolName;
 @end
